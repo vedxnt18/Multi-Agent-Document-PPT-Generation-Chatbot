@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Data (generated at runtime — keep folder structure via .gitkeep, not contents)
+data/uploads/*
+data/generated/*
+data/versions/*
+data/knowledge_base/*
+data/app.db
+!data/uploads/.gitkeep
+!data/templates/.gitkeep
+!data/generated/.gitkeep
+!data/versions/.gitkeep
+!data/knowledge_base/.gitkeep
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
